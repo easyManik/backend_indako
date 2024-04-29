@@ -31,7 +31,7 @@ class ProductController extends Controller
        $product->stock = $req->input('stock');
        $product->save();
        
-       return response()->json($product, 201); 
+       return response()->json(['status'=>'success', $product], 201); 
    }
 
    public function updateProduct(Request $req, $id)
