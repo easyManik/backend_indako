@@ -32,17 +32,17 @@
         "FILESYSTEM_DRIVER": "local",
         "QUEUE_CONNECTION": "sync",
         "SESSION_DRIVER": "file",
-        "SESSION_LIFETIME": 120,
+        "SESSION_LIFETIME": "120",
 
         "MEMCACHED_HOST": "127.0.0.1",
 
         "REDIS_HOST": "127.0.0.1",
         "REDIS_PASSWORD": null,
-        "REDIS_PORT": 6379,
+        "REDIS_PORT": "6379",
 
         "MAIL_MAILER": "smtp",
         "MAIL_HOST": "mailhog",
-        "MAIL_PORT": 1025,
+        "MAIL_PORT": "1025",
         "MAIL_USERNAME": null,
         "MAIL_PASSWORD": null,
         "MAIL_ENCRYPTION": null,
